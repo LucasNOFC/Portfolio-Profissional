@@ -3,9 +3,9 @@ import Linkedin from "../../images/linkedin.svg";
 import styled from "styled-components"
 
 const MediaComponent = styled.img`
-  width:25px;
-  height:25px;
-  margin-right:15px;
+  width:30px;
+  height:30px;
+  margin-right:30px;
 `
 
 const socialMediaOptions = [Github, Linkedin]
