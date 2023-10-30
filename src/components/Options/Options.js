@@ -14,7 +14,6 @@ text-align: center;
 height: 100%;
 padding: 0 5px;
 cursor: pointer;
-list-style: none;
 `
 
 const textOptions = ["Sobre mim", "Projetos", "Stacks"]
