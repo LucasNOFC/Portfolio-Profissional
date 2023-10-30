@@ -32,7 +32,7 @@ const ApresentationTittleComponent = styled.p`
 function Start() {
     return (
         <StartComponent>
-            <TitleComponent>Olá! Como vai? Me Chamo</TitleComponent>
+            <TitleComponent>Olá! Seja bem vindo, me chamo</TitleComponent>
             <SubtitleComponent>Lucas Nobre Fernandes</SubtitleComponent>
             <ApresentationTittleComponent>Desenvolvedor Full-Stack</ApresentationTittleComponent>
             <Botao/>

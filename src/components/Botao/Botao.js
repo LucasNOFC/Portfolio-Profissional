@@ -47,7 +47,7 @@ const ButtonComponent = styled.div`
 
 const textOptions = ["Veja meus projetos", "Baixe meu currículo"];
 const tags = [ProjectComponent, CurriculumComponent];
-const urls = ["*", Curriculum]
+const urls = ["Projetos", Curriculum]
 
 
 function Options() {
