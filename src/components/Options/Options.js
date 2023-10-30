@@ -1,17 +1,34 @@
-import './Options.css';
+import styled from 'styled-components';
+
+const OptionsComponent = styled.ul`
+display:flex;
+` 
+
+const OptionComponent = styled.li`
+display: flex;
+min-width: 120px;
+font-size:18px;
+justify-content: center;
+align-items: center;
+text-align: center;
+height: 100%;
+padding: 0 5px;
+cursor: pointer;
+list-style: none;
+`
 
 const textOptions = ["Sobre mim", "Projetos", "Stacks"]
 
 
 function Options() {
     return (
-          <ul className='options'>
+          <OptionsComponent>
             { textOptions.map( (texto) => (
               (
-                <li className="option"><p>{texto}</p></li>
+                <OptionComponent className="option"><p>{texto}</p></OptionComponent>
               )
             ))}
-          </ul>
+          </OptionsComponent>
     );
   }
 
