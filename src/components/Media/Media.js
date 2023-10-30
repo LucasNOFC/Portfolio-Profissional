@@ -12,7 +12,7 @@ function Media() {
             { socialMediaOptions.map( (Media, Index) => (
               (
                 <a href={linksMediaOptions[Index]} target="_blank" rel="noopener noreferrer">
-                  <img src={Media} className="MediaIcon"/>
+                  <img alt="social media logo" src={Media} className="MediaIcon"/>
                   </a>
               )
             ))}

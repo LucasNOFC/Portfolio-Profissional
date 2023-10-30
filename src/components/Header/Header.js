@@ -1,15 +1,24 @@
-import "./Header.css"
 import Logo from "../Logo/Logo";
 import Media from "../Media/Media";
 import Options from "../Options/Options";
 
+import styled from "styled-components"
+
+const HeaderContainer = styled.header`
+  background-color: #FFF;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+`
+
 function Header() {
   return (
-      <header className='App-header'>
+      <HeaderContainer>
           <Logo/>
           <Options/>
           <Media/>
-      </header>
+      </HeaderContainer>
   );
 }
 

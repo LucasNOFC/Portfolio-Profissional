@@ -2,6 +2,7 @@ import './Options.css';
 
 const textOptions = ["Sobre mim", "Projetos", "Stacks"]
 
+
 function Options() {
     return (
           <ul className='options'>
