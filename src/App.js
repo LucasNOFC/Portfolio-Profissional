@@ -14,7 +14,6 @@ function App() {
     <AppContainer>
       <Header/>
       <Start/>
-      <Projects/>
     </AppContainer>
   );
 }

@@ -14,6 +14,11 @@ text-align: center;
 height: 100%;
 padding: 0 5px;
 cursor: pointer;
+transition: ease-in-out .1s;
+
+&:hover{
+  font-weight:600;
+}
 `
 
 const textOptions = ["Sobre mim", "Projetos", "Stacks"]
