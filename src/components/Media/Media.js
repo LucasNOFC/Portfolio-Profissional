@@ -1,5 +1,3 @@
-import Github from "../../images/github.svg";
-import Linkedin from "../../images/linkedin.svg";
 import styled from "styled-components"
 
 const MediaComponent = styled.img`
@@ -8,7 +6,7 @@ const MediaComponent = styled.img`
   margin-right:30px;
 `
 
-const socialMediaOptions = [Github, Linkedin]
+const socialMediaOptions = ["/images/github.svg", "/images/linkedin.svg"]
 const linksMediaOptions = ["https://github.com/LucasNOFC", 
 "https://www.linkedin.com/in/lucas-nobre-fernandes-4b2408203/"]
 

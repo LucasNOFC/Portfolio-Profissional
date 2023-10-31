@@ -1,4 +1,3 @@
-import logo from '../../images/logo.png';
 import styled from 'styled-components';
 
 const LogoComponent = styled.div`
@@ -24,7 +23,7 @@ function Logo() {
     return (
           <LogoComponent>
             <LogoImageComponent
-             src={logo}
+             src={"/images/logo.png"}
              alt="logo do portfólio"/>
             <LinkComponent href='/'><strong>Portfólio</strong></LinkComponent>
           </LogoComponent>

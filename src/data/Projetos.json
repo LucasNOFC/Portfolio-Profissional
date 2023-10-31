@@ -1,0 +1,15 @@
+[
+    {
+        "image": "../../images/Projeto1.png",
+        "title": "API CINEMA",
+        "techs": "C#, Entity, .NET, MysqlServer",    
+        "description": "Projeto feito com o intuito de fazer uma API para cinemas."
+    }
+    ,
+    {
+        "image": "../../images/Projeto2.png",
+        "title": "Rotina Nobre",
+        "techs": "HTML5, SASS, JS",    
+        "description": "Projeto realizado para desenvolver habilidades de design."
+    }
+]
