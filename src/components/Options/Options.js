@@ -22,14 +22,15 @@ transition: ease-in-out .1s;
 `
 
 const textOptions = ["Sobre mim", "Projetos", "Stacks"]
+const urlsOptions = ["Sobre-mim", "Projetos", "Stacks"]
 
 
 function Options() {
     return (
           <OptionsComponent>
-            { textOptions.map( (texto) => (
+            { textOptions.map( (texto, index) => (
               (
-                <OptionComponent className="option"><p>{texto}</p></OptionComponent>
+                <OptionComponent className="option"><a href={urlsOptions[index]}>{texto}</a></OptionComponent>
               )
             ))}
           </OptionsComponent>

@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createGlobalStyle } from 'styled-components';
+import Router from './routes';
 
 const GlobalStyle = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap');
@@ -25,6 +25,10 @@ const GlobalStyle = createGlobalStyle`
     text-decoration:none;
   }
 
+  a:active, a:visited, a:active, a:link{
+    color:black;
+  }
+
   li{
     list-style:none;
   }
@@ -34,7 +38,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <GlobalStyle /> 
-    <App />
+     <Router/>
   </React.StrictMode>
 );
 

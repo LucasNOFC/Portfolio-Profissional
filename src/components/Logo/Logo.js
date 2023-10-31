@@ -5,11 +5,19 @@ const LogoComponent = styled.div`
 display: flex;
 font-size:30px;
 align-items: center;
+padding:30px;
 `
 
 const LogoImageComponent = styled.img`
 width: 50px;
 height: 50px;
+`
+
+const LinkComponent = styled.a`
+&:hover{
+  cursor:pointer;
+}
+
 `
 
 function Logo() {
@@ -18,7 +26,7 @@ function Logo() {
             <LogoImageComponent
              src={logo}
              alt="logo do portfólio"/>
-            <p><strong>Portfólio</strong></p>
+            <LinkComponent href='/'><strong>Portfólio</strong></LinkComponent>
           </LogoComponent>
     );
   }
