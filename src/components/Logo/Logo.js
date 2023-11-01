@@ -5,6 +5,7 @@ display: flex;
 font-size:30px;
 align-items: center;
 padding:30px;
+justify-content:center;
 `
 
 const LogoImageComponent = styled.img`

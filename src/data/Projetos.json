@@ -12,4 +12,11 @@
         "techs": "HTML5, SASS, JS",    
         "description": "Projeto realizado para desenvolver habilidades de design."
     }
+    ,
+    {
+        "image": "../../images/Projeto3.png",
+        "title": "Agenda de Alunos",
+        "techs": "EJS, Node.JS, Express.JS, MongoDB",    
+        "description": "Agenda para cadastrar e editar alunos."
+    }
 ]

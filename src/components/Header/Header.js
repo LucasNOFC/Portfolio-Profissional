@@ -10,6 +10,10 @@ const HeaderContainer = styled.header`
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 786px) {
+    flex-flow: column nowrap;
+  }
 `
 
 function Header() {

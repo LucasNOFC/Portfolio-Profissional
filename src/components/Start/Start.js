@@ -21,12 +21,20 @@ const SubtitleComponent = styled.h3`
     font-size: 36px;
     text-align:center;
     width: 100%;
+
+    @media (max-width: 408px) {
+        font-size:26px;
+      }
 `
 
 const ApresentationTittleComponent = styled.p`
     font-size:28px;
     text-align:center;
     width:100%;
+
+    @media (max-width: 408px) {
+        font-size:20px;
+      }
 `
 
 function Start() {

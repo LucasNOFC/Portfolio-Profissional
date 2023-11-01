@@ -16,6 +16,16 @@ const ProjectComponent = styled.a`
       border:1px solid blue;
       color:white;
     }
+
+    @media (max-width: 408px) {
+        padding:8px;
+        font-weight:400;
+    }
+
+    @media (max-width: 408px) {
+        padding:5px;
+        font-size:12px;
+    }
 ` 
 
 const CurriculumComponent = styled.a`
@@ -32,6 +42,16 @@ const CurriculumComponent = styled.a`
       background-color:white;
       border:1px solid white;
       color:#002f52;
+    }
+
+    @media (max-width: 408px) {
+        padding:8px;
+        font-weight:400;
+    }
+
+    @media (max-width: 408px) {
+        padding:5px;
+        font-size:12px;
     }
 `
 

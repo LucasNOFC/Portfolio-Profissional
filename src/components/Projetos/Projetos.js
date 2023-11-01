@@ -18,7 +18,7 @@ const TittleComponent = styled.h1`
 
 const AppContainer = styled.div`
     width: 100vw;
-    height: 200vh;
+    height: 350vh;
     background-image: linear-gradient(90deg, #002F52 35%, #326589);
 `
 

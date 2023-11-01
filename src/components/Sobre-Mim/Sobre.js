@@ -10,21 +10,49 @@ width:100%;
 display:flex;
 flex-flow:row nowrap;
 align-items:center;
+justify-content:center;
+gap:50px;
+
+@media (max-width:620px) {
+  flex-flow:column nowrap;   
+  height:125vh;
+  gap:0;
+}
+
 `
 
 const ContainerComponent = styled.section`
-  width:50%;
+  width:800px;
   margin:auto;
   display:flex;
   align-items:center;
   justify-content:center;
   flex-flow:column nowrap;
+  margin-left:20px;
+
+  @media (max-width:620px) {
+    width:90%;
+    margin-left:0;
+    margin:auto;
+  }
+
+
+
 `
 
 const ContactComponent = styled.div`
   display:flex;
+  justify-content:center;
+  align-items:center;
   flex-flow:column nowrap;
   margin-right:80px;
+
+  @media (max-width:620px) {
+    width:90%;  
+    margin-right:0;
+    margin:auto;
+  }
+
 `
 
 const AppContainer = styled.div`
@@ -34,15 +62,27 @@ const AppContainer = styled.div`
 
 const TittleComponent = styled.h1`
   font-size:38px;
+
+  @media (max-width: 900px) {
+    font-size:30px;
+  }
 `
 
 const SubtittleComponent = styled.h2`
   font-size:22px;
+
+  @media (max-width: 900px) {
+    font-size:18px;
+  }
 `
 
 const TextComponent = styled.p`
   font-size:16px;
   text-align:justify;
+
+  @media (max-width: 900px) {
+    font-size:12px;
+  }
 `
 
 const LinkComponent = styled.a`
