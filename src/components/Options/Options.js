@@ -33,7 +33,7 @@ const LinkComponent = styled.a`
 `
 
 const textOptions = ["Sobre mim", "Projetos"]
-const urlsOptions = ["Sobre-mim", "Projetos"]
+const urlsOptions = ["/Portfolio-Profissional/Sobre-mim", "/Portfolio-Profissional/Projetos"]
 
 
 function Options() {

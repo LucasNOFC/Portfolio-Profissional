@@ -26,7 +26,7 @@ function Logo() {
             <LogoImageComponent
              src={"/images/logo.png"}
              alt="logo do portfólio"/>
-            <LinkComponent href='/'><strong>Portfólio</strong></LinkComponent>
+            <LinkComponent href='/Portfolio-Profissional'><strong>Portfólio</strong></LinkComponent>
           </LogoComponent>
     );
   }
