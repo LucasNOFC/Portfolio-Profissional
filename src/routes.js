@@ -5,7 +5,7 @@ import Sobremim from './components/Sobre-Mim/Sobre'
 
 function AppRouter() {
     return (
-        <Router>
+        <Router basename={process.env.PUBLIC_URL} >
             <Routes>
                 <Route path='/' element={<App/>} />
                 <Route path='/Projetos' element={<Projetos/>} /> 
