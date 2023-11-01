@@ -1,7 +1,7 @@
 {
   "name": "portfolio-profissional",
   "version": "0.1.0",
-  "homepage": "https://lucasnofc.github.io/index",
+  "homepage": "https://lucasnofc.github.io/Portfolio-Profissional",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
