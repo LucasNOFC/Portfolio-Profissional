@@ -21,6 +21,7 @@ const AppContainer = styled.div`
     height: 350vh;
     background-image: linear-gradient(90deg, #002F52 35%, #326589);
 `
+const ImageUrls = [require("../../images/Projeto1.png"), require("../../images/Projeto2.png"), require("../../images/Projeto3.png") ]
 
 function Projetos() {
   return (
@@ -31,7 +32,7 @@ function Projetos() {
             {ProjetosJson.map((project, index) => (
               <Card
                 key={index}
-                image={project.image}
+                image={ImageUrls[index]}
                 title={project.title}
                 techs={project.techs}
                 description={project.description}

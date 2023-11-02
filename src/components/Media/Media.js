@@ -6,7 +6,7 @@ const MediaComponent = styled.img`
   margin-right:30px;
 `
 
-const socialMediaOptions = ["/images/github.svg", "/images/linkedin.svg"]
+const socialMediaOptions = [require("../../images/github.png"), require("../../images/linkedin.png")]
 const linksMediaOptions = ["https://github.com/LucasNOFC", 
 "https://www.linkedin.com/in/lucas-nobre-fernandes-4b2408203/"]
 
@@ -15,8 +15,8 @@ function Media() {
           <ul className='SocialMedia'>
             { socialMediaOptions.map( (Media, Index) => (
               (
-                <a href={linksMediaOptions[Index]} target="_blank" rel="noopener noreferrer">
-                  <MediaComponent alt="social media logo" src={Media} className="MediaIcon"/>
+                <a href={linksMediaOptions[Index]} key={Index} target="_blank" rel="noopener noreferrer">
+                  <MediaComponent alt="social media logo" src={Media}/>
                   </a>
               )
             ))}

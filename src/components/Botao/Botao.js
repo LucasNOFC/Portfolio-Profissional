@@ -79,7 +79,7 @@ function Options() {
 
         return (
           <a key={index} href={urls[index]} {...downloadAttribute}>
-            <Tag>{text}</Tag>
+            <Tag key={index}>{text}</Tag>
           </a>
         );
       })}

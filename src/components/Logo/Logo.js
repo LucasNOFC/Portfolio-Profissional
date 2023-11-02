@@ -24,7 +24,7 @@ function Logo() {
     return (
           <LogoComponent>
             <LogoImageComponent
-             src={"/images/logo.png"}
+             src={require("../../images/logo.png")}
              alt="logo do portfólio"/>
             <LinkComponent href='/Portfolio-Profissional'><strong>Portfólio</strong></LinkComponent>
           </LogoComponent>

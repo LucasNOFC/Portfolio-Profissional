@@ -96,6 +96,7 @@ font-size:18px;
 }
 `
 
+
 function Card({ image, title, techs, description}) {
   return (
             <CardElement>

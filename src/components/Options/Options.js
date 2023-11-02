@@ -39,9 +39,9 @@ const urlsOptions = ["/Portfolio-Profissional/Sobre-mim", "/Portfolio-Profission
 function Options() {
     return (
           <OptionsComponent>
-            { textOptions.map( (texto, index) => (
+            { textOptions.map( (texto, Index) => (
               (
-                <OptionComponent className="option"><LinkComponent href={urlsOptions[index]}>{texto}</LinkComponent></OptionComponent>
+                <OptionComponent className="option" key={Index}><LinkComponent href={urlsOptions[Index]}>{texto}</LinkComponent></OptionComponent>
               )
             ))}
           </OptionsComponent>
