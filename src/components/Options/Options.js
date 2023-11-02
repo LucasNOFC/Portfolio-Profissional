@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 const OptionsComponent = styled.ul`
@@ -33,7 +34,7 @@ const LinkComponent = styled.a`
 `
 
 const textOptions = ["Sobre mim", "Projetos"]
-const urlsOptions = ["/Portfolio-Profissional/Sobre-mim", "/Portfolio-Profissional/Projetos"]
+const urlsOptions = ["/Sobre-mim", "/Projetos"]
 
 
 function Options() {
@@ -41,7 +42,7 @@ function Options() {
           <OptionsComponent>
             { textOptions.map( (texto, Index) => (
               (
-                <OptionComponent className="option" key={Index}><LinkComponent href={urlsOptions[Index]}>{texto}</LinkComponent></OptionComponent>
+                <OptionComponent className="option" key={Index}><Link to={urlsOptions[Index]}>{texto}</Link></OptionComponent>
               )
             ))}
           </OptionsComponent>
